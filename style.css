@@ -164,7 +164,9 @@ section {
 }
 
 .contact-form {
-    width: 300px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
     flex: 2;
     padding-left: 100px;
     gap: 30px;
@@ -177,7 +179,8 @@ section {
 }
 
 .contact-form input, .contact-form textarea {
-    width:300px;
+    width:100%;
+    max-width: 300px;
     height: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -186,7 +189,8 @@ section {
 }
 
 .contact-form .btn {
-    width: 330px;
+    width: 100%;
+    max-width: 330px;
     border: none;
     font-family: inherit;
 }
@@ -302,7 +306,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .contact-wrapper {
         flex-direction: column;
         align-items: center;
@@ -318,7 +322,6 @@ footer {
 
     .contact-form {
         padding-left: 0;
-        width: 100%;
-        max-width: 320px;
+        max-width: 95%;
     }
 }
