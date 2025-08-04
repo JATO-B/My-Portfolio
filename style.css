@@ -306,7 +306,7 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .contact-wrapper {
         flex-direction: column;
         align-items: center;
@@ -321,7 +321,8 @@ footer {
     }
 
     .contact-form {
-        max-width: 95%;
-        padding: 15px;
+        padding-left: 0;
+        width: 100%;
+        max-width: 320px;
     }
 }
